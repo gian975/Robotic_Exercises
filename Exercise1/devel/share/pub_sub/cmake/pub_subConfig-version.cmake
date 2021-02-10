@@ -1,0 +1,1 @@
+/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake

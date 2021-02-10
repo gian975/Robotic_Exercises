@@ -1,0 +1,8 @@
+prefix=/home/mivia/Desktop/project_delivery/Exercise1/install
+
+Name: pub_sub_msg
+Description: Description of pub_sub_msg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

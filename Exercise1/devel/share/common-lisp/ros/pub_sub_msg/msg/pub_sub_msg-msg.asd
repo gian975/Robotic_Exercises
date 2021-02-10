@@ -1,0 +1,1 @@
+/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub_msg/share/common-lisp/ros/pub_sub_msg/msg/pub_sub_msg-msg.asd

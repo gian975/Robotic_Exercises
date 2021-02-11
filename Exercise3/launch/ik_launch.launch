@@ -1,0 +1,34 @@
+<launch>
+    <arg name="debugger_attached" default="false" />
+
+    <arg name="use_rviz" default="true" />
+
+    <arg name="pipeline" default="ompl" />
+
+    <arg name="debug" default="false" />
+
+    <include file="$(find fanuc_moveit_config)/launch/planning_context.launch">
+        <arg name="load_robot_description" value="true"/>
+        <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="~/Desktop/Robotica/Exercise4/src/fanuc_description/robot/rm-10ia.urdf"/>
+    </include>
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen"/>
+    
+    <include file="$(find fanuc_moveit_config)/launch/move_group.launch">
+        <arg name="allow_trajectory_execution" value="true"/>
+        <arg name="fake_execution" value="true"/>
+        <arg name="info" value="true"/>
+        <arg name="debug" value="$(arg debug)"/>
+        <arg name="pipeline" value="$(arg pipeline)"/>
+    </include>
+
+    <include file="$(find fanuc_moveit_config)/launch/moveit_rviz.launch" if="$(arg use_rviz)">
+        <arg name="rviz_config" value="$(find fanuc_moveit_config)/launch/moveit.rviz"/>
+        <arg name="debug" value="$(arg debug)"/>
+    </include>
+
+    <param name="planning_group_name" value="fanuc_robot"/>
+
+    <node name="server" pkg="kinematics_action" type="kinematics_action_server" output="screen" unless="$(arg debugger_attached)"/>
+
+</launch>

@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/forward_kinematic_srv/share/gennodejs/ros/forward_kinematic_srv/srv/ForwardKinSrv.js

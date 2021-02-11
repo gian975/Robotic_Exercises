@@ -1,0 +1,8 @@
+prefix=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/forward_kinematics
+
+Name: forward_kinematics
+Description: Description of forward_kinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime

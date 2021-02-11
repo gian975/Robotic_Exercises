@@ -1,0 +1,6 @@
+Symlinking /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/share/kinematics_action/cmake/kinematics_actionConfig.cmake
+Symlinking /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/share/kinematics_action/cmake/kinematics_actionConfig-version.cmake
+Symlinking /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/lib/libkinematics_action_library.so
+Symlinking /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/lib/kinematics_action/kinematics_action_server
+Symlinking /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/lib/kinematics_action/kinematics_action_client
+Symlinking /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/lib/pkgconfig/kinematics_action.pc

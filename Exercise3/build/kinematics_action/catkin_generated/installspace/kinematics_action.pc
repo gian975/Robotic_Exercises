@@ -1,0 +1,8 @@
+prefix=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/install
+
+Name: kinematics_action
+Description: Description of kinematics_action
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

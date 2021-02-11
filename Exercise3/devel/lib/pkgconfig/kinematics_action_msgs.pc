@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/kinematics_action_msgs/lib/pkgconfig/kinematics_action_msgs.pc

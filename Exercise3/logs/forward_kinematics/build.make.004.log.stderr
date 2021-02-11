@@ -1,0 +1,7 @@
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/src/forward_kinematics/src/forward_kinematic_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/src/forward_kinematics/src/forward_kinematic_client.cpp:77:18:[m[K [01;31m[Kerror: [m[K‘[01m[KfromMsg[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+             tf2::[01;31m[KfromMsg[m[K(srv.response.pose.orientation, myq);
+                  [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/forward_kinematics_client.dir/src/forward_kinematic_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/forward_kinematics_client.dir/all] Error 2
+make: *** [all] Error 2

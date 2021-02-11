@@ -1,0 +1,11 @@
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/src/tf_parser/src/tf_parser.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/src/tf_parser/src/tf_parser.cpp:29:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransforms[m[K’ was not declared in this scope
+         for(int i=0; i < [01;31m[Ktransforms[m[K.size(); i++)
+                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/src/tf_parser/src/tf_parser.cpp:29:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksrandom[m[K’
+         for(int i=0; i < [01;36m[Ktransforms[m[K.size(); i++)
+                          [01;36m[K^~~~~~~~~~[m[K
+                          [32m[Ksrandom[m[K
+make[2]: *** [CMakeFiles/tf_parser.dir/src/tf_parser.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tf_parser.dir/all] Error 2
+make: *** [all] Error 2

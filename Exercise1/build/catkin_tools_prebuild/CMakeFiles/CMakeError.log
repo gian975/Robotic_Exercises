@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25ce9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_25ce9.dir/build.make CMakeFiles/cmTC_25ce9.dir/build
-make[1]: Entering directory '/home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_25ce9.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_25ce9.dir/CheckSymbolExists.c.o   -c /home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_25ce9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25ce9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_25ce9.dir/CheckSymbolExists.c.o  -o cmTC_25ce9 
-CMakeFiles/cmTC_25ce9.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_411a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_411a2.dir/build.make CMakeFiles/cmTC_411a2.dir/build
+make[1]: Entering directory '/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_411a2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_411a2.dir/CheckSymbolExists.c.o   -c /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_411a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_411a2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_411a2.dir/CheckSymbolExists.c.o  -o cmTC_411a2 
+CMakeFiles/cmTC_411a2.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_25ce9.dir/build.make:97: recipe for target 'cmTC_25ce9' failed
-make[1]: *** [cmTC_25ce9] Error 1
-make[1]: Leaving directory '/home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_25ce9/fast' failed
-make: *** [cmTC_25ce9/fast] Error 2
+CMakeFiles/cmTC_411a2.dir/build.make:97: recipe for target 'cmTC_411a2' failed
+make[1]: *** [cmTC_411a2] Error 1
+make[1]: Leaving directory '/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_411a2/fast' failed
+make: *** [cmTC_411a2/fast] Error 2
 
-File /home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_463ec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_463ec.dir/build.make CMakeFiles/cmTC_463ec.dir/build
-make[1]: Entering directory '/home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_463ec.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_463ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_463ec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_463ec.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_463ec.dir/CheckFunctionExists.c.o  -o cmTC_463ec -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_266ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_266ad.dir/build.make CMakeFiles/cmTC_266ad.dir/build
+make[1]: Entering directory '/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_266ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_266ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_266ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_266ad.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_266ad.dir/CheckFunctionExists.c.o  -o cmTC_266ad -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_463ec.dir/build.make:97: recipe for target 'cmTC_463ec' failed
-make[1]: *** [cmTC_463ec] Error 1
-make[1]: Leaving directory '/home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_463ec/fast' failed
-make: *** [cmTC_463ec/fast] Error 2
+CMakeFiles/cmTC_266ad.dir/build.make:97: recipe for target 'cmTC_266ad' failed
+make[1]: *** [cmTC_266ad] Error 1
+make[1]: Leaving directory '/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_266ad/fast' failed
+make: *** [cmTC_266ad/fast] Error 2
 
 

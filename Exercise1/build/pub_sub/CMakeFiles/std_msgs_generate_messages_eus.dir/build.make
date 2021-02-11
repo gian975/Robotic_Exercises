@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub
+CMAKE_SOURCE_DIR = /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub
+CMAKE_BINARY_DIR = /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub /home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

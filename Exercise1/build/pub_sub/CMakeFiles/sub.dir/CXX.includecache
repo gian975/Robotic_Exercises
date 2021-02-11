@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub_msg/include/pub_sub_msg/JointPositions.h
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub_msg/include/pub_sub_msg/JointPositions.h
 string
 -
 vector
@@ -22,11 +22,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub/src/sub.cpp
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub/src/sub.cpp
 ros/ros.h
 -
 pub_sub_msg/JointPositions.h
-/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub/src/pub_sub_msg/JointPositions.h
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub/src/pub_sub_msg/JointPositions.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

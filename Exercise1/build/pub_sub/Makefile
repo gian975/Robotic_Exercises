@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub
+CMAKE_SOURCE_DIR = /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub
+CMAKE_BINARY_DIR = /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub/CMakeFiles /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub/CMakeFiles /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

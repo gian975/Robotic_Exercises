@@ -1,7 +1,7 @@
 pub_sub
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/cmake.lock /home/mivia/Desktop/project_delivery/Exercise1/devel/./cmake.lock
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/lib/pub_sub/sub /home/mivia/Desktop/project_delivery/Exercise1/devel/lib/pub_sub/sub
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/lib/pub_sub/pub /home/mivia/Desktop/project_delivery/Exercise1/devel/lib/pub_sub/pub
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/lib/pkgconfig/pub_sub.pc /home/mivia/Desktop/project_delivery/Exercise1/devel/lib/pkgconfig/pub_sub.pc
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake /home/mivia/Desktop/project_delivery/Exercise1/devel/share/pub_sub/cmake/pub_subConfig.cmake
-/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake /home/mivia/Desktop/project_delivery/Exercise1/devel/share/pub_sub/cmake/pub_subConfig-version.cmake
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub/cmake.lock /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/./cmake.lock
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/share/pub_sub/cmake/pub_subConfig-version.cmake
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/share/pub_sub/cmake/pub_subConfig.cmake
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub/lib/pub_sub/sub /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/lib/pub_sub/sub
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub/lib/pub_sub/pub /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/lib/pub_sub/pub
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub/lib/pkgconfig/pub_sub.pc /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/lib/pkgconfig/pub_sub.pc

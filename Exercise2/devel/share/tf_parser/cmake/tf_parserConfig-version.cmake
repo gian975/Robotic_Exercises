@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/.private/tf_parser/share/tf_parser/cmake/tf_parserConfig-version.cmake

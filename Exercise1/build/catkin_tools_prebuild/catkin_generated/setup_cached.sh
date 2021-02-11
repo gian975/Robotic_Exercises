@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/catkin_tools_prebuild/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/mivia/Desktop/project_delivery/Exercise1/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD='/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/catkin_tools_prebuild/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub_msg:$CMAKE_PREFIX_PATH"
-export PWD='/home/mivia/Desktop/project_delivery/Exercise1/build/pub_sub_msg'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub_msg/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub_msg:$CMAKE_PREFIX_PATH"
+export PWD='/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/build/pub_sub_msg'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub_msg/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg:$ROS_PACKAGE_PATH"

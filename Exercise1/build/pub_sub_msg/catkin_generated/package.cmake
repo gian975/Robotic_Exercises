@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "pub_sub_msg")
 set(pub_sub_msg_VERSION "0.0.0")
-set(pub_sub_msg_MAINTAINER "gianluca <gianluca@todo.todo>")
+set(pub_sub_msg_MAINTAINER "Gianluca D'Amore <g.damore14@studenti.unisa.it>, Carmine Napolano <c.napolano@studenti.unisa.it>, Vincenzo Noviello <v.noviello4@studenti.unisa.it>")
 set(pub_sub_msg_PACKAGE_FORMAT "2")
 set(pub_sub_msg_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs")
 set(pub_sub_msg_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")

@@ -1,0 +1,6 @@
+tf_parser
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/.private/tf_parser/cmake.lock /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/./cmake.lock
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/.private/tf_parser/share/tf_parser/cmake/tf_parserConfig.cmake /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/share/tf_parser/cmake/tf_parserConfig.cmake
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/.private/tf_parser/share/tf_parser/cmake/tf_parserConfig-version.cmake /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/share/tf_parser/cmake/tf_parserConfig-version.cmake
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/.private/tf_parser/lib/tf_parser/tf_parser /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/lib/tf_parser/tf_parser
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/.private/tf_parser/lib/pkgconfig/tf_parser.pc /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/devel/lib/pkgconfig/tf_parser.pc

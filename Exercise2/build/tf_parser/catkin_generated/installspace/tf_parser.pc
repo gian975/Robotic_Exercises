@@ -1,0 +1,8 @@
+prefix=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/install
+
+Name: tf_parser
+Description: Description of tf_parser
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

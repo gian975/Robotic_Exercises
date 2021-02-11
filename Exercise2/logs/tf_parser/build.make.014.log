@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target tf_parser[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf_parser.dir/src/tf_parser.cpp.o[0m
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/src/tf_parser/src/tf_parser.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/src/tf_parser/src/tf_parser.cpp:51:79:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransforms[m[K’ was not declared in this scope
+             ss << std::endl << std::endl << "************ Transformation " << [01;31m[Ktransforms[m[K[i].header.frame_id << " -> " << transforms[i].child_frame_id << " ************" << std::endl;
+                                                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise2/src/tf_parser/src/tf_parser.cpp:51:79:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktransform[m[K’
+             ss << std::endl << std::endl << "************ Transformation " << [01;36m[Ktransforms[m[K[i].header.frame_id << " -> " << transforms[i].child_frame_id << " ************" << std::endl;
+                                                                               [01;36m[K^~~~~~~~~~[m[K
+                                                                               [32m[Ktransform[m[K
+CMakeFiles/tf_parser.dir/build.make:62: recipe for target 'CMakeFiles/tf_parser.dir/src/tf_parser.cpp.o' failed
+make[2]: *** [CMakeFiles/tf_parser.dir/src/tf_parser.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tf_parser.dir/all' failed
+make[1]: *** [CMakeFiles/tf_parser.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

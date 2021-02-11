@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "pub_sub"
-PROJECT_SPACE_DIR = "/home/mivia/Desktop/project_delivery/Exercise1/devel/.private/pub_sub"
+PROJECT_SPACE_DIR = "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel/.private/pub_sub"
 PROJECT_VERSION = "0.0.0"

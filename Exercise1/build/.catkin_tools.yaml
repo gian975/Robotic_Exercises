@@ -1,6 +1,6 @@
-devel_space: /home/mivia/Desktop/project_delivery/Exercise1/devel
+devel_space: "/home/gianluca/Desktop/Universit\xE0/Robotica/project_delivery/Robotic_Exercises/Exercise1/devel"
 install: false
-install_space: /home/mivia/Desktop/project_delivery/Exercise1/install
+install_space: "/home/gianluca/Desktop/Universit\xE0/Robotica/project_delivery/Robotic_Exercises/Exercise1/install"
 profile: default
-source_space: /home/mivia/Desktop/project_delivery/Exercise1/src
-workspace: /home/mivia/Desktop/project_delivery/Exercise1
+source_space: "/home/gianluca/Desktop/Universit\xE0/Robotica/project_delivery/Robotic_Exercises/Exercise1/src"
+workspace: "/home/gianluca/Desktop/Universit\xE0/Robotica/project_delivery/Robotic_Exercises/Exercise1"

@@ -2,7 +2,7 @@
 
 message(STATUS "pub_sub_msg: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ipub_sub_msg:/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipub_sub_msg:/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(pub_sub_msg_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
 add_custom_target(_pub_sub_msg_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pub_sub_msg" "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pub_sub_msg" "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_pub_sub_msg_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pub_sub_msg
-  "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
+  "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pub_sub_msg
@@ -49,7 +49,7 @@ add_custom_target(pub_sub_msg_generate_messages_cpp
 add_dependencies(pub_sub_msg_generate_messages pub_sub_msg_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
 add_dependencies(pub_sub_msg_generate_messages_cpp _pub_sub_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pub_sub_msg_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pub_sub_msg
-  "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
+  "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pub_sub_msg
@@ -82,7 +82,7 @@ add_custom_target(pub_sub_msg_generate_messages_eus
 add_dependencies(pub_sub_msg_generate_messages pub_sub_msg_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
 add_dependencies(pub_sub_msg_generate_messages_eus _pub_sub_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pub_sub_msg_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pub_sub_msg
-  "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
+  "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pub_sub_msg
@@ -115,7 +115,7 @@ add_custom_target(pub_sub_msg_generate_messages_lisp
 add_dependencies(pub_sub_msg_generate_messages pub_sub_msg_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
 add_dependencies(pub_sub_msg_generate_messages_lisp _pub_sub_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pub_sub_msg_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pub_sub_msg
-  "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
+  "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pub_sub_msg
@@ -148,7 +148,7 @@ add_custom_target(pub_sub_msg_generate_messages_nodejs
 add_dependencies(pub_sub_msg_generate_messages pub_sub_msg_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
 add_dependencies(pub_sub_msg_generate_messages_nodejs _pub_sub_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pub_sub_msg_generate_messages_nodej
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pub_sub_msg
-  "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
+  "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pub_sub_msg
@@ -181,7 +181,7 @@ add_custom_target(pub_sub_msg_generate_messages_py
 add_dependencies(pub_sub_msg_generate_messages pub_sub_msg_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/Desktop/project_delivery/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/src/pub_sub_msg/msg/JointPositions.msg" NAME_WE)
 add_dependencies(pub_sub_msg_generate_messages_py _pub_sub_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

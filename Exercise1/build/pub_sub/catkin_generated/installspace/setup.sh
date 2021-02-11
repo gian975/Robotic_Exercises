@@ -11,7 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/mivia/Desktop/project_delivery/Exercise1/install}
+: ${_CATKIN_SETUP_DIR:=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise1/install}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

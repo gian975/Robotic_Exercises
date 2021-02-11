@@ -168,30 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named forward_kinematics_client
+# Target rules for targets named forward_kinematic_server
 
 # Build rule for target.
-forward_kinematics_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 forward_kinematics_client
-.PHONY : forward_kinematics_client
+forward_kinematic_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 forward_kinematic_server
+.PHONY : forward_kinematic_server
 
 # fast build rule for target.
-forward_kinematics_client/fast:
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/build
-.PHONY : forward_kinematics_client/fast
-
-#=============================================================================
-# Target rules for targets named forward_kinematics_server
-
-# Build rule for target.
-forward_kinematics_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 forward_kinematics_server
-.PHONY : forward_kinematics_server
-
-# fast build rule for target.
-forward_kinematics_server/fast:
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/build
-.PHONY : forward_kinematics_server/fast
+forward_kinematic_server/fast:
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/build
+.PHONY : forward_kinematic_server/fast
 
 #=============================================================================
 # Target rules for targets named forward_kinematic_srv_generate_messages_cpp
@@ -1273,6 +1260,19 @@ rosgraph_msgs_generate_messages_lisp/fast:
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named forward_kinematic_client
+
+# Build rule for target.
+forward_kinematic_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 forward_kinematic_client
+.PHONY : forward_kinematic_client
+
+# fast build rule for target.
+forward_kinematic_client/fast:
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/build
+.PHONY : forward_kinematic_client/fast
+
+#=============================================================================
 # Target rules for targets named forward_kinematic_srv_generate_messages_nodejs
 
 # Build rule for target.
@@ -1538,7 +1538,7 @@ src/forward_kinematic_client.o: src/forward_kinematic_client.cpp.o
 
 # target to build an object file
 src/forward_kinematic_client.cpp.o:
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/src/forward_kinematic_client.cpp.o
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/src/forward_kinematic_client.cpp.o
 .PHONY : src/forward_kinematic_client.cpp.o
 
 src/forward_kinematic_client.i: src/forward_kinematic_client.cpp.i
@@ -1547,7 +1547,7 @@ src/forward_kinematic_client.i: src/forward_kinematic_client.cpp.i
 
 # target to preprocess a source file
 src/forward_kinematic_client.cpp.i:
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/src/forward_kinematic_client.cpp.i
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/src/forward_kinematic_client.cpp.i
 .PHONY : src/forward_kinematic_client.cpp.i
 
 src/forward_kinematic_client.s: src/forward_kinematic_client.cpp.s
@@ -1556,35 +1556,35 @@ src/forward_kinematic_client.s: src/forward_kinematic_client.cpp.s
 
 # target to generate assembly for a file
 src/forward_kinematic_client.cpp.s:
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/src/forward_kinematic_client.cpp.s
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/src/forward_kinematic_client.cpp.s
 .PHONY : src/forward_kinematic_client.cpp.s
 
-src/forward_kinematics_server.o: src/forward_kinematics_server.cpp.o
+src/forward_kinematic_server.o: src/forward_kinematic_server.cpp.o
 
-.PHONY : src/forward_kinematics_server.o
+.PHONY : src/forward_kinematic_server.o
 
 # target to build an object file
-src/forward_kinematics_server.cpp.o:
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/src/forward_kinematics_server.cpp.o
-.PHONY : src/forward_kinematics_server.cpp.o
+src/forward_kinematic_server.cpp.o:
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/src/forward_kinematic_server.cpp.o
+.PHONY : src/forward_kinematic_server.cpp.o
 
-src/forward_kinematics_server.i: src/forward_kinematics_server.cpp.i
+src/forward_kinematic_server.i: src/forward_kinematic_server.cpp.i
 
-.PHONY : src/forward_kinematics_server.i
+.PHONY : src/forward_kinematic_server.i
 
 # target to preprocess a source file
-src/forward_kinematics_server.cpp.i:
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/src/forward_kinematics_server.cpp.i
-.PHONY : src/forward_kinematics_server.cpp.i
+src/forward_kinematic_server.cpp.i:
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/src/forward_kinematic_server.cpp.i
+.PHONY : src/forward_kinematic_server.cpp.i
 
-src/forward_kinematics_server.s: src/forward_kinematics_server.cpp.s
+src/forward_kinematic_server.s: src/forward_kinematic_server.cpp.s
 
-.PHONY : src/forward_kinematics_server.s
+.PHONY : src/forward_kinematic_server.s
 
 # target to generate assembly for a file
-src/forward_kinematics_server.cpp.s:
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/src/forward_kinematics_server.cpp.s
-.PHONY : src/forward_kinematics_server.cpp.s
+src/forward_kinematic_server.cpp.s:
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/src/forward_kinematic_server.cpp.s
+.PHONY : src/forward_kinematic_server.cpp.s
 
 # Help Target
 help:
@@ -1597,8 +1597,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... test"
-	@echo "... forward_kinematics_client"
-	@echo "... forward_kinematics_server"
+	@echo "... forward_kinematic_server"
 	@echo "... forward_kinematic_srv_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... moveit_ros_manipulation_gencfg"
@@ -1684,6 +1683,7 @@ help:
 	@echo "... object_recognition_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... forward_kinematic_client"
 	@echo "... forward_kinematic_srv_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
@@ -1707,9 +1707,9 @@ help:
 	@echo "... src/forward_kinematic_client.o"
 	@echo "... src/forward_kinematic_client.i"
 	@echo "... src/forward_kinematic_client.s"
-	@echo "... src/forward_kinematics_server.o"
-	@echo "... src/forward_kinematics_server.i"
-	@echo "... src/forward_kinematics_server.s"
+	@echo "... src/forward_kinematic_server.o"
+	@echo "... src/forward_kinematic_server.i"
+	@echo "... src/forward_kinematic_server.s"
 .PHONY : help
 
 

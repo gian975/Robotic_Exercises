@@ -141,8 +141,8 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(${PROJECT_NAME}_server src/forward_kinematics_server.cpp)
-add_executable(${PROJECT_NAME}_client src/forward_kinematic_client.cpp)
+add_executable(forward_kinematic_server src/forward_kinematic_server.cpp)
+add_executable(forward_kinematic_client src/forward_kinematic_client.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -155,10 +155,10 @@ add_executable(${PROJECT_NAME}_client src/forward_kinematic_client.cpp)
 # add_dependencies(${PROJECT_NAME} forward_kinematic_srv)
 
 # Specify libraries to link a library or executable target against
-target_link_libraries(${PROJECT_NAME}_server 
+target_link_libraries(forward_kinematic_server 
   ${catkin_LIBRARIES}
 )
-target_link_libraries(${PROJECT_NAME}_client
+target_link_libraries(forward_kinematic_client
   ${catkin_LIBRARIES}
 )
 

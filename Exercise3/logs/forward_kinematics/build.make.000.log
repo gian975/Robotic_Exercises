@@ -1,8 +1,8 @@
-[35m[1mScanning dependencies of target forward_kinematics_server[0m
-[35m[1mScanning dependencies of target forward_kinematics_client[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/forward_kinematics_client.dir/src/forward_kinematic_client.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/forward_kinematics_server.dir/src/forward_kinematics_server.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/forward_kinematics/lib/forward_kinematics/forward_kinematics_client[0m
-[100%] [32m[1mLinking CXX executable /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/forward_kinematics/lib/forward_kinematics/forward_kinematics_server[0m
-[100%] Built target forward_kinematics_client
-[100%] Built target forward_kinematics_server
+[35m[1mScanning dependencies of target forward_kinematic_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/forward_kinematic_server.dir/src/forward_kinematic_server.cpp.o[0m
+[35m[1mScanning dependencies of target forward_kinematic_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/forward_kinematic_client.dir/src/forward_kinematic_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/forward_kinematics/lib/forward_kinematics/forward_kinematic_server[0m
+[ 75%] Built target forward_kinematic_server
+[100%] [32m[1mLinking CXX executable /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/devel/.private/forward_kinematics/lib/forward_kinematics/forward_kinematic_client[0m
+[100%] Built target forward_kinematic_client

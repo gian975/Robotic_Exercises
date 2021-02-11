@@ -7,14 +7,19 @@
 
     <arg name="debug" default="false" />
 
-    <include file="$(find fanuc_moveit_config)/launch/planning_context.launch">
-        <arg name="load_robot_description" value="true"/>
-        <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="~/Desktop/Robotica/Exercise4/src/fanuc_description/robot/rm-10ia.urdf"/>
-    </include>
+    <arg name = "urdf_file" default="rm-10ia.urdf" />
 
+    <arg name = "moveit_config" default = "fanuc_moveit_config"/>
+    
+    <arg name = "group" default = "fanuc_arm"/>
+
+    <include file="$(eval find(arg('moveit_config')) + '/launch/planning_context.launch')">
+       <arg name="load_robot_description" value="true"/>
+        <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find fanuc_description)/robot/$(arg urdf_file)"/>
+    </include >
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen"/>
     
-    <include file="$(find fanuc_moveit_config)/launch/move_group.launch">
+    <include file="$(eval find(arg('moveit_config')) + '/launch/move_group.launch')">
         <arg name="allow_trajectory_execution" value="true"/>
         <arg name="fake_execution" value="true"/>
         <arg name="info" value="true"/>
@@ -22,12 +27,12 @@
         <arg name="pipeline" value="$(arg pipeline)"/>
     </include>
 
-    <include file="$(find fanuc_moveit_config)/launch/moveit_rviz.launch" if="$(arg use_rviz)">
-        <arg name="rviz_config" value="$(find fanuc_moveit_config)/launch/moveit.rviz"/>
+    <include file="$(eval find(arg('moveit_config')) + '/launch/moveit_rviz.launch')" if="$(arg use_rviz)">
+        <arg name="rviz_config" value="$(eval find(arg('moveit_config')) + '/launch/moveit.rviz')"/>
         <arg name="debug" value="$(arg debug)"/>
     </include>
 
-    <param name="planning_group_name" value="fanuc_robot"/>
+    <param name="planning_group_name" value="$(arg group)"/>
 
     <node name="server" pkg="kinematics_action" type="kinematics_action_server" output="screen" unless="$(arg debugger_attached)"/>
 

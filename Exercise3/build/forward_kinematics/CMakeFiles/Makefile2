@@ -60,76 +60,39 @@ CMAKE_SOURCE_DIR = /home/gianluca/Desktop/Università/Robotica/project_delivery/
 CMAKE_BINARY_DIR = /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics
 
 #=============================================================================
-# Target rules for target CMakeFiles/forward_kinematics_client.dir
+# Target rules for target CMakeFiles/forward_kinematic_server.dir
 
 # All Build rule for target.
-CMakeFiles/forward_kinematics_client.dir/all:
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/depend
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles --progress-num=1,2 "Built target forward_kinematics_client"
-.PHONY : CMakeFiles/forward_kinematics_client.dir/all
+CMakeFiles/forward_kinematic_server.dir/all:
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/depend
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles --progress-num=3,4 "Built target forward_kinematic_server"
+.PHONY : CMakeFiles/forward_kinematic_server.dir/all
 
 # Include target in all.
-all: CMakeFiles/forward_kinematics_client.dir/all
+all: CMakeFiles/forward_kinematic_server.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/forward_kinematics_client.dir/rule: cmake_check_build_system
+CMakeFiles/forward_kinematic_server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/forward_kinematics_client.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/forward_kinematic_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles 0
-.PHONY : CMakeFiles/forward_kinematics_client.dir/rule
+.PHONY : CMakeFiles/forward_kinematic_server.dir/rule
 
 # Convenience name for target.
-forward_kinematics_client: CMakeFiles/forward_kinematics_client.dir/rule
+forward_kinematic_server: CMakeFiles/forward_kinematic_server.dir/rule
 
-.PHONY : forward_kinematics_client
-
-# clean rule for target.
-CMakeFiles/forward_kinematics_client.dir/clean:
-	$(MAKE) -f CMakeFiles/forward_kinematics_client.dir/build.make CMakeFiles/forward_kinematics_client.dir/clean
-.PHONY : CMakeFiles/forward_kinematics_client.dir/clean
+.PHONY : forward_kinematic_server
 
 # clean rule for target.
-clean: CMakeFiles/forward_kinematics_client.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/forward_kinematics_server.dir
-
-# All Build rule for target.
-CMakeFiles/forward_kinematics_server.dir/all:
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/depend
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles --progress-num=3,4 "Built target forward_kinematics_server"
-.PHONY : CMakeFiles/forward_kinematics_server.dir/all
-
-# Include target in all.
-all: CMakeFiles/forward_kinematics_server.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/forward_kinematics_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/forward_kinematics_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles 0
-.PHONY : CMakeFiles/forward_kinematics_server.dir/rule
-
-# Convenience name for target.
-forward_kinematics_server: CMakeFiles/forward_kinematics_server.dir/rule
-
-.PHONY : forward_kinematics_server
+CMakeFiles/forward_kinematic_server.dir/clean:
+	$(MAKE) -f CMakeFiles/forward_kinematic_server.dir/build.make CMakeFiles/forward_kinematic_server.dir/clean
+.PHONY : CMakeFiles/forward_kinematic_server.dir/clean
 
 # clean rule for target.
-CMakeFiles/forward_kinematics_server.dir/clean:
-	$(MAKE) -f CMakeFiles/forward_kinematics_server.dir/build.make CMakeFiles/forward_kinematics_server.dir/clean
-.PHONY : CMakeFiles/forward_kinematics_server.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/forward_kinematics_server.dir/clean
+clean: CMakeFiles/forward_kinematic_server.dir/clean
 
 .PHONY : clean
 
@@ -2786,6 +2749,43 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/forward_kinematic_client.dir
+
+# All Build rule for target.
+CMakeFiles/forward_kinematic_client.dir/all:
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/depend
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles --progress-num=1,2 "Built target forward_kinematic_client"
+.PHONY : CMakeFiles/forward_kinematic_client.dir/all
+
+# Include target in all.
+all: CMakeFiles/forward_kinematic_client.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/forward_kinematic_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/forward_kinematic_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/Exercise3/build/forward_kinematics/CMakeFiles 0
+.PHONY : CMakeFiles/forward_kinematic_client.dir/rule
+
+# Convenience name for target.
+forward_kinematic_client: CMakeFiles/forward_kinematic_client.dir/rule
+
+.PHONY : forward_kinematic_client
+
+# clean rule for target.
+CMakeFiles/forward_kinematic_client.dir/clean:
+	$(MAKE) -f CMakeFiles/forward_kinematic_client.dir/build.make CMakeFiles/forward_kinematic_client.dir/clean
+.PHONY : CMakeFiles/forward_kinematic_client.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/forward_kinematic_client.dir/clean
 
 .PHONY : clean
 

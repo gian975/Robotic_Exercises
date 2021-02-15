@@ -15,7 +15,7 @@ roslaunch moveit_setup_assistant setup_assistant.launch
 ```
 
 In the start window, select "create new moveit configuration package" for loading the urdf file previously created.
-It has been generated the self collisions and in virtual joints window it has not been inserted a virtual joint because it has been inserted in urdf file. It has been created a planning group and a home pose for fanuc (http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html, for more detalis). After this process it has been generated a new package, called "fanuc_moveit_config".
+It has been generated the self collisions and in virtual joints window it has been inserted a `virtual joint` because it's necessary a link between the first robot link (`base_link`)and an external frame of reference. It has been created a `planning group and` a home pose for fanuc (http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html, for more detalis). After this process it has been generated a new package, called "fanuc_moveit_config".
 
 For loading it in Rviz, in workspace directory:
 

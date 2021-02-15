@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/ex4_planning/unisa_trajectory_planner/devel/.private/catkin_tools_prebuild/env.sh

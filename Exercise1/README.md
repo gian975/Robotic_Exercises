@@ -4,5 +4,4 @@ This package implements an easy example regarding exchanged messages with a publ
 
 ```bash
 catkin build pub_sub_msg pub_sub
-
 ```

@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {
     ros::init(argc, argv, "tf_parser");
     ros::NodeHandle nh;
-
+    // Istatiantion of buffer to fill through reading tf topic 
     tf2_ros::Buffer tfBuffer;
     tf2_ros::TransformListener tf_listener(tfBuffer);
     ros::Rate rate(1.0);
@@ -15,6 +15,7 @@ int main(int argc, char **argv)
         std::vector<geometry_msgs::TransformStamped> transform(7);
         rate.sleep();
         try {
+            // Taking the trasformations from last link to all the others
             transform[0] = tfBuffer.lookupTransform("base_link", "flange", ros::Time(0));
             transform[1] = tfBuffer.lookupTransform("link1", "flange", ros::Time(0));
             transform[2] = tfBuffer.lookupTransform("link2", "flange", ros::Time(0));
@@ -24,8 +25,8 @@ int main(int argc, char **argv)
             transform[6] = tfBuffer.lookupTransform("link6", "flange", ros::Time(0));
             
         } catch (tf2::TransformException &exception) {
-                ROS_WARN("%s", exception.what());
-                ros::Duration(1.0).sleep();
+            ROS_WARN("%s", exception.what());
+            ros::Duration(1.0).sleep();
         }
 
         for(int i=0; i < transform.size(); i++)

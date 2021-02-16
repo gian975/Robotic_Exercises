@@ -12,7 +12,7 @@ roslaunch fanuc_move_group_interface ex4.launch
 
 It has been used visual tool for an interactive code execution and for showing the result on `Rviz`. So, at first, it has been implemented the communication with `Rviz`, thanks to `MoveItVisualTools` object.
 
-## Evaluate Path
+## Evaluate Trajectory
 
 The task was to create a circular trajectory in the workspace, in front of robot. So:
 

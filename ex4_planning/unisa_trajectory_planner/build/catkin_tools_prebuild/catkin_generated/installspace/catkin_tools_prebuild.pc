@@ -1,8 +1,0 @@
-prefix=/home/gianluca/Desktop/Università/Robotica/project_delivery/Robotic_Exercises/ex4_planning/unisa_trajectory_planner/install
-
-Name: catkin_tools_prebuild
-Description: Description of catkin_tools_prebuild
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
